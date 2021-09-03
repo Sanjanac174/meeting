@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/external/normalize.css">
+    <link rel="stylesheet" href="C:\Users\cherukuri\Downloads\meetings-app\app.css">
+    <link rel="stylesheet" href="C:\Users\cherukuri\Downloads\meetings-app\nav.css">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="C:\Users\cherukuri\Downloads\meetings-app\meetings.css">
+    <title>Search-Meetings</title>
+</head>
+
+<body>
+    <nav class="nav-main">
+        <div class="navbar">
+            <ul class="nav-links list-unstyled">
+                <li><a href="C:\Users\cherukuri\Downloads\meetings-app\index.html">Calendar</a></li>
+                <li><a href="C:\Users\cherukuri\Downloads\meetings-app\meeting.html">Meetings</a></li>
+                <li><a href="C:\Users\cherukuri\Downloads\meetings-app\teams.html">Teams</a></li>
+            </ul>
+            <div class="navbar-right">
+                <ul class="right-ul">
+                    <div class="right">
+                        <li style="margin-right:0;">Hello <span>sanjana@example.com!</span></li>
+
+                        <li><a href="C:\Users\cherukuri\Downloads\meetings-app\login.html">Logout</a></li>
+
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <div class="container-main">
+            <h2>Meetings</h2>
+            <hr>
+        </div>
+        <div class="container-main meeting-sub-headings">
+            <div class="meeting-heading-1"><a href="Search-meetings.html">Filter/Search Meetings</a></div>
+            <div class="meeting-heading-1"><a href="Add a Meeting.html">Add a Meeting</a></div>
+        </div>
+        <div class="container-main meeting-main">
+            <div id="head">Add a new meeting</div>
+            <hr>
+            <form action="">
+                <label for="">Date</label>
+                <div>
+                    <select id="select-date">
+                        <option value="All">All</option>
+                        <option value="Past">Past</option>
+                        <option value="Today">Today</option>
+                        <option value="Upcoming">Upcoming</option>
+                    </select>
+                </div>
+                <br>
+                <label for="">Search for</label>
+                <textarea name="" id="" cols="30" rows="2"
+                    placeholder="Search using words which describe the meeting"></textarea>
+                <br>
+                <br>
+                <button>Search</button>
+            </form>
+        </div>
+
+        <div class="container-main">
+            <br>
+            <b> Meetings matching search criteria</b>
+            <hr>
+            <div class="search-meetings">
+                <div class="search-criteria">
+                    <p><b>16 September 2020</b> 17:00-18:00</p>
+                    <p>Project Deveops</p>
+                    <button id="button-excuse">Excuse Yourself</button>
+                    <hr>
+                    <P><b>Attendees:</b>samgna@example.com anjani@example.com</P>
+                    <select>
+                        <option value="member">Select member</option>
+                    </select>
+                    <button id="button-add">Add</button>
+                </div>
+                <div class="search-criteria">
+                    <p><b>18 September 2020</b> 11:00-12:30</p>
+                    <p>Azure </p>
+                    <button id="button-excuse">Excuse Yourself</button>
+                    <hr>
+                    <P><b>Attendees:</b>mahitha@example.com sarika@example.com</P>
+                    <select>
+                        <option value="member">Select member</option>
+                    </select>
+                    <button id="button-add">Add</button>
+                </div>
+            </div>
+
+        </div>
+
+
+    </main>
+</body>
+
+</html>
